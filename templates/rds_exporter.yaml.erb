@@ -1,0 +1,4 @@
+<% require 'yaml' -%>
+<% instances = scope.lookupvar('::prometheus::rds_exporter::instances') -%>
+<% full_config = { 'instances'=>instances } -%>
+<%= full_config.to_yaml -%>

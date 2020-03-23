@@ -1,0 +1,6 @@
+---
+instances:
+- region: us-east-1
+  instance: rds-mysql57
+- region: us-east-2
+  instance: rds-mysql58
